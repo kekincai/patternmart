@@ -1,0 +1,17 @@
+{
+    "name": "patternmart",
+    "version": "1.0.0",
+    "description": "GoF 23 设计模式全覆盖的电商演示站点",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "deploy": "npm run build && gh-pages -d dist"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "vite": "^5.0.10",
+        "gh-pages": "^6.1.1"
+    }
+}
